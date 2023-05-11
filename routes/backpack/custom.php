@@ -23,4 +23,5 @@ Route::group([
     Route::crud('article', 'ArticleCrudController');
     Route::crud('image', 'ImageCrudController');
     Route::crud('tool', 'ToolCrudController');
+    Route::crud('newsletter', 'NewsletterCrudController');
 }); // this should be the absolute last line of this file
